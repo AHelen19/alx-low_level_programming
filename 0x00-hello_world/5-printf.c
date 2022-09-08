@@ -5,23 +5,12 @@
  * Auth: Brennan D Baraban
  *
  */
-
-
-
 #include <stdio.h>
-
-
-
-/*
- *
+/**
  * main - Prints "with proper grammar, but the outcome is
- *
  *                a piece of art," followed by a new line.
  * description - hello this main describes
- *
- *
  * Return: Always 0.
- *
  */
 
 int main(void)
