@@ -3,8 +3,6 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
-
 /**
  * main - Prints a random number and states whether
  *
@@ -29,3 +27,4 @@ int main(void)
 			printf("%d is zero\n", n);
 
 		return (0);
+}
