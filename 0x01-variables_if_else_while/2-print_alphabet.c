@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <ctype.h>
 #include <stdio.h>
 /**
  * main - Prints the last digit of a randomly generated number
@@ -10,7 +8,9 @@
 int main(void)
 
 {
-	for (char i = 'a'; i <= 'z'; i++)
+	char i;
+
+	for (i = 'a'; i <= 'z'; i++)
 		putchar(i);
 	return (0);
 }
