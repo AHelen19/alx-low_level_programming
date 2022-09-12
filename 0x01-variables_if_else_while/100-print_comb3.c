@@ -6,11 +6,6 @@
  *        and whether it is greater than 5, less than 6, or 0.
  * Return: Always 0.
  */
-
-
-
-/* betty style doc for function main goes there */
-
 int main(void)
 
 {
@@ -23,6 +18,7 @@ int main(void)
 		for (j = 0; j < 10; j++)
 			{
 				if (i != j)
+				{
 					if ((i * 10 + j) % 10 != 0)
 					{
 						putchar(i);
@@ -32,6 +28,7 @@ int main(void)
 					}
 				else
 					continue;
+				}
 			}
 	}
 	return (0);
