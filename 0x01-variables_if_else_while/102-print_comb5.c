@@ -16,14 +16,14 @@ int main(void)
 		{
 			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
-				for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+				for (digit4 = digit3 + 1; digit4 < 10; digit4++)
 				{
 					putchar((digit1 % 10) + '0');
 					putchar((digit2 % 10) + '0');
 					putchar(' ');
 					putchar((digit3 % 10) + '0');
 					putchar((digit4 % 10) + '0');
-					if (digit1 == 9 && digit2 == 8 && digit3 == 9)
+					if (digit1 == 9 && digit2 == 8 && digit3 == 9 && digit4 == 9)
 					break;
 					putchar(',');
 					putchar(' ');
