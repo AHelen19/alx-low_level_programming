@@ -25,7 +25,8 @@ int main(void)
 				if (i != j)
 					if ((i * 10 + j) % 10 != 0)
 					{
-						putchar(ij);
+						putchar(i);
+						putchar(j);
 						putchar(',');
 						putchar(' ');
 					}
