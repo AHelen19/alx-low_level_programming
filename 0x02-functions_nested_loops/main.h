@@ -1,8 +1,5 @@
 #ifndef MAIN_H
-
 #define MAIN_H  
-
-
 
 /**
  *  File: holberton.h
@@ -39,4 +36,4 @@ void print_times_table(int n);
 
 
 */
-#eindif
+#endif
