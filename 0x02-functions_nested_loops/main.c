@@ -1,4 +1,4 @@
-#include allmethods.h
+#include main.h
 
 /**
  * main - return 1
