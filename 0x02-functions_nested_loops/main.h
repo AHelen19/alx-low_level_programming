@@ -1,6 +1,6 @@
-#ifndef ALLMETHODS_H
+#ifndef MAIN_H
 
-#define ALLMETHODS_H  
+#define MAIN_H  
 
 
 
