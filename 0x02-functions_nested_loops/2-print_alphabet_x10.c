@@ -1,7 +1,7 @@
 #include "main.h"
+
 /**
- * function should reter
- * return 0;
+ * print_alphabet_x10 -  function should reter
  */
 void print_alphabet_x10(void)
 {
@@ -10,10 +10,8 @@ void print_alphabet_x10(void)
 
 	for (iterator = 0 ; iterator < 10; iterator++)
 	{
-		for(c = 'a' ; c <= 'z'; c++)
+		for (c = 'a' ; c <= 'z'; c++)
 			_putchar(c);
-	
 		_putchar('\n');
 	}
-	
 }
