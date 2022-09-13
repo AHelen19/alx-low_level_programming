@@ -1,10 +1,10 @@
-#include "_putchar.h"
+#include "allmethods.h"
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  */
 
-void print_alphabet(void)
+void print_putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
