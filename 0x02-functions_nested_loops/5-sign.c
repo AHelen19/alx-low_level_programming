@@ -24,10 +24,11 @@ int print_sign(int n)
 		_putchar(0);
 		result = 0;
 	} else 
-	{	printf('-');
+	{	_putchar('-');
 		return = -1;
 	}
-	
+	_putchar(',');
+	_putchar(' ');
 	return (result);
 }
 
