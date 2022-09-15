@@ -16,13 +16,13 @@ void times_table(void)
 
 			if (prod > 10)
 			{
-				_putchar((row * column) / 10 + '0');
-				_putchar((row * column) % 10 + '0');
+				_putchar((prod / 10) + '0');
+				_putchar((prod % 10) + '0');
 			
 			}
 			else 
 			{
-				_putchar(prod);
+				_putchar(prod + '0');
 			}	
 			if (row == 9 && column == 9)
 				break;
