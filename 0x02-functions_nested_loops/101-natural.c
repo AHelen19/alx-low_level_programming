@@ -1,4 +1,4 @@
-#include <stdlib>
+#include <stdio.h>
 
 int main(void)
 {
@@ -11,4 +11,8 @@ int main(void)
 			sum = sum + num;
 		num--;
 	}
+	
+	printf("%d\n", sum);
+
+	return (0);
 }
