@@ -12,6 +12,8 @@ void times_table(void)
 	{
 		for (column = 0; column <= 9; column++)
 		{
+			prod = row * column;
+
 			if (prod > 10)
 			{
 				_putchar((row * column) / 10 + '0');
