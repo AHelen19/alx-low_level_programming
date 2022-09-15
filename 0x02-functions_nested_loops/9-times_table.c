@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table: is the function name*
+ * times_table - is the function name*
  *
  */
 void times_table(void)
@@ -14,16 +14,15 @@ void times_table(void)
 		{
 			prod = row * column;
 
-			if (prod > 10)
+			if (prod >= 10)
 			{
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
-			
 			}
-			else 
+			else
 			{
 				_putchar(prod + '0');
-			}	
+			}
 			if (column == 9)
 				break;
 			_putchar(',');
