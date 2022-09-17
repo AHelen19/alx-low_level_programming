@@ -11,7 +11,8 @@ int main(void)
        
         result = positive_or_negative(0);
 
-	printf("%d\n", result,"is zero");
+	printf(result," is zero");
+
 
 
         return (0);
