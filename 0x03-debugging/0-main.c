@@ -7,7 +7,12 @@
 
 int main(void)
 {
-	printf("%d\n", positive_or_negative(0);
+	int result;
+       
+        result = positive_or_negative(0);
+
+	printf("%d\n", result,"is zero");
+
 
         return (0);
 }
