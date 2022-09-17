@@ -11,9 +11,7 @@ int main(void)
        
         result = positive_or_negative(0);
 
-	printf(result," is zero");
-
-
+	printf(result,"%d is zero");
 
         return (0);
 }
